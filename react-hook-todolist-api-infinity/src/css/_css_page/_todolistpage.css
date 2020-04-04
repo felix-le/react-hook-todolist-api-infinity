@@ -1,0 +1,138 @@
+.listodo-wrapper .form-group {
+	margin-bottom: 15px;
+	background-color: inherit;
+}
+
+
+.listodo-wrapper .form-group label{
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+}
+.listodo-wrapper .form-control{
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.listodo-wrapper h1{
+	text-align: center;
+}
+.listodo-wrapper h3{
+	text-align: center;
+}
+
+.btn-primary{
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+.btn{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-danger{
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+.buttonContainer button + button {
+	margin-left: 10px;
+}
+
+.buttonContainer{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+#todoList{
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+#todoList label{
+	width: 80%;
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+
+#todoList li{
+  list-style-type: none;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.3;
+  color: red;
+}
+.uncompleted label{
+  color: #afa7a7;
+  text-decoration: line-through;
+}
+#todoList .btn{
+  margin-left: 10px;
+}
+
+.buttonContainer button + button{
+  margin-left: 10px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.well {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.btn-completed{
+  background-color: #A52A2A;
+}
